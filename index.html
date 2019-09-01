@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Handwritten Digits Recognizer</title>
+    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker|Satisfy&display=swap" rel="stylesheet">
+    <link href = "style.css" rel = "stylesheet"/>
+</head>
+<body>
+    <center><h1>Handwritten Digits Recognizer</h1></center>
+    <div class="container">
+        <div class="card">
+            <div class="card-header">
+                <strong>TenserFlow.js - Handwritten Digits Recognizer</strong>
+            </div>
+            <div class="card-body">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Log Output:</h5>
+                        <div id="log"></div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Predict</h5>
+                        <button type="button" class="btn btn-success" id="selectTestDataButton" disabled>Please wait till model is ready</button>
+                        <br><br>
+                        <div id="predictionResult" class="PredictionResult">
+                            <center><h3>PredictionResult</h3></center>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
