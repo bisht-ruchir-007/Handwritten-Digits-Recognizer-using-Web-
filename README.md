@@ -1,4 +1,4 @@
-# Handwritten-Digits-Recognizer-using-Web-
+# Handwritten-Digits-Recognizer-using-Web (tensorflow.JS)
 
 run - parcel index.html 
 Server will run at - 
